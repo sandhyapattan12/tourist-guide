@@ -32,6 +32,10 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost"
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://tourist-guide-iqq6.onrender.com'
+]
 # Application definition
 
 INSTALLED_APPS = [
